@@ -5584,14 +5584,6 @@ file-entry-cache@^6.0.1:
   dependencies:
     flat-cache "^3.0.4"
 
-file-loader@^6.2.0, file-loader@~6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-6.2.0.tgz#baef7cf8e1840df325e4390b4484879480eebe4d"
-  integrity sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==
-  dependencies:
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
-
 file-loader@~6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-6.0.0.tgz#97bbfaab7a2460c07bcbd72d3a6922407f67649f"
@@ -9257,7 +9249,7 @@ randombytes@^2.1.0:
   dependencies:
     safe-buffer "^5.1.0"
 
-raw-loader@^4.0.2, raw-loader@~4.0.0:
+raw-loader@~4.0.0:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/raw-loader/-/raw-loader-4.0.2.tgz#1aac6b7d1ad1501e66efdac1522c73e59a584eb6"
   integrity sha512-ZnScIV3ag9A4wPX/ZayxL/jZH+euYb6FcUinPcgiQW0+UBtEv0O6Q3lGd3cqJ+GHH+rksEv3Pj99oxJ3u3VIKA==
@@ -10251,14 +10243,6 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svg-url-loader@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/svg-url-loader/-/svg-url-loader-7.1.1.tgz#0cbdb30beb8679cb060c12eaf30085747fa7591f"
-  integrity sha512-NlsMCePODm7FQhU9aEZyGLPx5Xe1QRI1cSEUE6vTq5LJc9l9pStagvXoEIyZ9O3r00w6G3+Wbkimb+SC3DI/Aw==
-  dependencies:
-    file-loader "~6.2.0"
-    loader-utils "~2.0.0"
-
 svg-url-loader@~6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/svg-url-loader/-/svg-url-loader-6.0.0.tgz#b94861d9f6badfb8ca3e7d3ec4655c1bf732ac5d"
@@ -10723,7 +10707,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-url-loader@^4.1.1, url-loader@~4.1.0:
+url-loader@~4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-4.1.1.tgz#28505e905cae158cf07c92ca622d7f237e70a4e2"
   integrity sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==

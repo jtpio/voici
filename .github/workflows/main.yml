@@ -42,7 +42,7 @@ jobs:
     - name: Install browser
       run: |
         yarn
-        yarn playwright install chromium
+        yarn playwright install chromium webkit --with-deps
       working-directory: ui-tests
 
     - name: Install dependencies and build tests
